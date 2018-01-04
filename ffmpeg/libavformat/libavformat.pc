@@ -1,0 +1,14 @@
+prefix=/Users/ajph/Documents/projects/qt/beamplay/ffmpeg
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 56.15.102
+Requires: libavcodec >= 56.13.100, libswresample >= 1.1.100, libavutil >= 54.15.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavformat -liconv -L/usr/local/Cellar/x264/r2455/lib -lx264 -lvorbisenc -lvorbis -logg -ltheoraenc -ltheoradec -logg -L/usr/local/Cellar/libass/0.12.0/lib -lass -lm -lbz2 -lz -pthread
+Libs.private: 
+Cflags: -I${includedir}

@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/MainWindow">
+        <file>images/spinner.gif</file>
+        <file>images/airplay-on.png</file>
+        <file>images/airplay-off.png</file>
+        <file>images/drop.png</file>
+        <file>images/stream.png</file>
+    </qresource>
+    <qresource prefix="/AboutDialog">
+        <file>images/AppIcon100.png</file>
+        <file>other/acknowledgements.html</file>
+    </qresource>
+</RCC>
